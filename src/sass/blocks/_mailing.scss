@@ -1,0 +1,14 @@
+.mailing {
+    position: relative;
+    background: url("../../img/bloobs_fourth.png") no-repeat right;
+    padding-top: 105px;
+    &-form {
+        margin-top: 15px;
+    }
+    &__wrapper {
+        text-align: center;
+    }
+    &__descr {
+        margin-top: 18px;
+    }
+}

@@ -1,0 +1,58 @@
+.footer {
+    &__dropdown {
+        position: relative;
+        display: inline-block;
+        &:hover &-content {
+            display: block;
+        }
+        &-btn {
+            font-family: 'DM Sans';
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 700;
+            color: #fff;
+            padding: 5px;
+            cursor: pointer;
+            background: url('https://icons.iconarchive.com/icons/fatcow/farm-fresh/16/flag-usa-icon.png') no-repeat left center;
+            padding-left: 25px;
+            width: 40px;
+            &::after {
+                background: rgba(0, 0, 0, 0) url("../../icons/dropdown-arrow.svg") no-repeat scroll center center;
+                content: "";
+                height: 16px;
+                position: absolute;
+                right: -32px;
+                top: 9px;
+                width: 16px;
+            }
+        }
+        &-content {
+            align-items: center;
+            font-family: 'DM Sans';
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 700;
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            width: 66px;
+            top: -50px;
+            transition: all linear .5s;
+            a {
+                color: black;
+                padding: 2px 0 2px 25px;
+                text-decoration: none;
+                display: block;
+                &:first-child {
+                    background: url('https://icons.iconarchive.com/icons/fatcow/farm-fresh/16/flag-usa-icon.png') no-repeat left center;
+                }
+                &:last-child {
+                    background: url('https://icons.iconarchive.com/icons/famfamfam/flag/16/ua-icon.png') no-repeat left center;
+                }
+                &:hover {
+                    background-color: #f1f1f1
+                }
+            }
+        }
+    }
+}

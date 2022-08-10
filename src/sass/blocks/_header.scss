@@ -1,0 +1,29 @@
+.header {
+    padding-top: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__nav {
+        align-items: center;
+        &-item {
+            position: relative;
+            display: inline-flex;
+            margin-right: 70px;
+            &:last-child {
+                margin-right: 0px;
+            }
+        }
+        &-link {
+            font-family: 'DM Sans', sans-serif;
+            line-height: 30px;
+            font-size: 20px;
+            font-weight: 500;
+            color: #AAAAAB;
+            transition: all linear .2s;
+            &:hover {
+                text-decoration: none;
+                color: $main-color;
+            }
+        }
+    }
+}

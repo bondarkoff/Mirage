@@ -1,0 +1,1028 @@
+@media (max-width: 1439px) {
+    .container {
+        width: 100%;
+    }
+}
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .feed-form {
+        input.email {
+            width: 550px;
+        }
+    }
+    .services {
+        &__item {
+            width: 230px;
+            height: 295px;
+            &-title {
+                margin-top: 25px;
+                font-size: 30px;
+                line-height: 60px;
+            }  
+        } 
+    }
+    .footer {
+        &__dropdown {
+            &-btn {
+                &::after {
+                    background: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .promo {
+        background: url("../../img/main_bg.png") no-repeat top right;
+        &__photo {
+            width: 400px;
+            height: 400px;
+        }
+        &__wrapper {
+            align-items: flex-start;
+        }
+        &__title {
+            margin-top: 10px;
+            font-size: 44px;
+            line-height: 52px;
+        }
+        &__descr {
+            font-size: 18px;
+            margin-top: 15px;
+        }
+        &__btn {
+            margin-top: 20px;
+        }
+    }
+    .services {
+        &__wrapper {
+            margin-top: 45px;
+        }
+        &__item {
+            width: 174px;
+            height: 265px;
+            &-photo {
+                margin-top: 35px;
+            }
+            &-title {
+                margin-top: 25px;
+                font-size: 23px;
+                line-height: 50px;
+            }
+            &-subtitle {
+                padding: 0 16px 0 16px;
+                font-size: 15px;
+                line-height: 22px;
+            }
+        } 
+    }
+    .about {
+        position: relative;
+        &__photo {
+            z-index: 1;
+            opacity: 25%;
+            position: absolute;
+            right: 40px;
+        }
+        &__photo.third {
+            position: inherit;
+            width: 50%;
+            opacity: 100%;
+        }
+        &__text {
+            &-title.third {
+                font-size: 35px;
+                line-height: 33px;
+            }
+            &-author {
+                margin-top: 14px;
+                font-size: 28px;
+            }
+        }
+        &__text {
+            z-index: 5;
+            padding-left: 0px;
+        }
+        &__links {
+            padding-top: 100px;
+            &-photo {
+                width: 85%;
+            }
+        }
+    }
+
+   .button.mailing__btn {
+        margin-top: 20px;
+   }
+
+   .footer {
+        &__social {
+            &-text, &-subheader {
+                margin-top: 18px;
+            }
+            &-location {
+                font-size: 18px;
+            }
+            &-item {
+                margin-right: 4px;
+            }
+        }
+        &__resources {
+            &-title {
+                text-align: center;
+                font-size: 22px;
+                line-height: 20px;
+            }
+            &-item {
+                font-size: 20px;
+                line-height: 26px;
+                text-align: center;
+            }
+        }
+        &__dropdown {
+            &-btn {
+                &::after {
+                    background: none;
+                }
+            }
+        }
+   }
+   
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .header {
+        padding-top: 35px;
+        &__nav {
+            &-item {
+                margin-right: 35px;
+            }
+        }
+    }
+    .promo {
+        background: url(../../img/main_bg.png) no-repeat right;
+        background-position-y: 77%;
+        &__subtitle {
+            font-size: 33px;
+        }
+        &__photo {
+            display: none;
+        }
+        &__title {
+            margin-top: 15px;
+        }
+        &__descr {
+            margin-top: 20px;
+        }
+    }
+
+    .services {
+        &__wrapper {
+            display: grid;
+            grid-template-columns: 40px 260px;
+            gap: 20px;
+        }
+        &__title {
+            font-size: 48px;
+            line-height: 60px;
+        }
+        &__item {
+            width: 260px;
+            height: 265px;
+            &-title {
+                font-size: 35px;
+                line-height: 60px;
+            }
+            &-subtitle {
+                font-size: 17px;
+                line-height: 26px;
+            }
+        }
+    }
+    .about {
+        position: relative;
+        &__photo {
+            z-index: 1;
+            opacity: 20%;
+            position: absolute;
+        }
+        &__wrapper.second, &__wrapper.third {
+            margin-top: 130px;
+        }
+        &__photo.third {
+            padding-top: 80px;
+            position: inherit;
+            width: 30%;
+            height: 30%;
+            opacity: 100%;
+        }
+        &__text {
+            &-title.third {
+                font-size: 35px;
+                line-height: 33px;
+            }
+            &-author {
+                margin-top: 14px;
+                font-size: 28px;
+            }
+        }
+    }
+
+    .footer {
+        &__social {
+            &-text, &-subheader {
+                margin-top: 7px;
+            }
+            &-location {
+                font-size: 16px;
+            }
+            &-item {
+                margin-right: 3px;
+            }
+        }
+        &__resources {
+            &-title {
+                text-align: center;
+                font-size: 20px;
+                line-height: 18px;
+            }
+            &-item {
+                font-size: 17px;
+                line-height: 22px;
+                text-align: center;
+            }
+        }
+        &__dropdown-btn {
+            margin-right: 30px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .header {
+        &__nav {
+            &-link {
+                display: none;
+            }
+            &-item {
+                &:last-child {
+                    margin-right: 30px;
+                }
+            }
+        }
+    }
+
+    .hamburger {
+        height: 17px;
+        span {
+            height: 3px;
+            width: 27px;
+        }
+    }
+
+    .promo {
+        background: url("../../img/main_bg.png") no-repeat;
+        background-position-x: 0%;
+        &__subtitle {
+            font-size: 27px;
+        }
+        &__title {
+            font-size: 45px;
+            line-height: 50px;
+        }
+    }
+
+    .services {
+        &__wrapper {
+            display: grid;
+            grid-template-columns: 40px 250px;
+            gap: 20px;
+        }
+        &__title {
+            font-size: 46px;
+            line-height: 60px;
+        }
+        &__item {
+            width: 250px;
+            height: 265px;
+            &-title {
+                font-size: 35px;
+                line-height: 60px;
+            }
+            &-subtitle {
+                font-size: 17px;
+                line-height: 26px;
+            }
+        }
+    }
+    
+    .about {
+        &__photo {
+            right: 0;
+        }
+        &__wrapper.second, &__wrapper.third {
+            margin-top: 120px;
+        }
+    }
+
+    .mailing {
+        &__title {
+            font-size: 49px;
+        }
+        &__descr {
+            font-size: 19px;
+        }
+    }
+
+    .feed-form input.email {
+        width: 440px;
+    }
+
+    .footer {
+        &__social {
+            &-text, &-subheader {
+                margin-top: 7px;
+            }
+            &-location {
+                font-size: 15px;
+            }
+            &-item {
+                margin-right: 3px;
+            }
+            &-subheader {
+                font-size: 18px;
+            }
+            &-items {
+                margin-top: 8px;
+            }
+        }
+        &__resources {
+            &-title {
+                text-align: center;
+                font-size: 20px;
+                line-height: 18px;
+            }
+            &-item {
+                font-size: 17px;
+                line-height: 18px;
+                text-align: center;
+            }
+        }
+        &__dropdown-btn {
+            margin-right: 40px;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .container {
+        max-width: 425px;
+    }
+
+    .menu {
+        &__link {
+            font-size: 30px;
+            &::before {
+                width: 18px;
+                height: 18px;
+            }
+        }
+    }
+
+    .services {
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__title {
+            font-size: 36px;
+            line-height: 45px;
+        }
+        &__subtitle {
+            font-size: 25px;
+            line-height: 35px;
+        }
+    }
+
+    .about {
+        padding-top: 120px; 
+        &__photo, &__photo.second {
+            width: 70%;
+        }
+        &__text {
+            &-title {
+                margin-top: 5px;
+                font-size: 43px;
+                line-height: 51px;
+            }
+            &-title.third {
+                margin-top: 5px;
+                font-size: 40px;
+                line-height: 50px;
+            }
+        }
+        &__text.second {
+            padding-right: 0px;
+        }
+        &__btn {
+            margin-top: 20px;
+        }
+        &__photo.third {
+            display: none;
+        }
+        &__links {
+            display: none;
+        }
+    }
+
+    .mailing {
+        &__title {
+            font-size: 38px;
+            line-height: 40px;
+        }
+        &__descr {
+            font-size: 15px;
+            line-height: 27px;
+        }
+    }
+
+    .feed-form {
+        input.email {
+            width: 400px;
+        }
+    }
+
+    .button.mailing__btn {
+        margin-top: 10px;
+        width: 170px;
+        height: 54px;
+    }
+
+    .footer {
+        &__resources {
+            width: 25%;
+            &-title {
+                font-size: 15px;
+                line-height: 15px;
+            }
+            &-item {
+                font-size: 14px;
+                line-height: 11px;
+            }
+        }
+        &__social {
+            &-location {
+                font-size: 12px;
+                line-height: 16px;
+            }
+            &-subheader {
+                font-size: 15px;
+            }
+            &-photo {
+                width: 20%;
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        max-width: 375px;
+    }
+    .services {
+        &__title {
+            font-size: 32px;
+            line-height: 32px;
+        }
+    }
+    .about {
+        &__text {
+            &-title, &-title.second, &-title.third {
+                font-size: 30px;
+                line-height: 37px;
+            }
+            &-descr {
+                margin-top: 12px;
+                font-size: 17px;
+            }
+        }
+    }
+    .mailing {
+        &__title {
+            font-size: 33px;
+            line-height: 33px;
+        }
+        &__descr {
+            font-size: 13px;
+            line-height: 26px;
+        }
+    }
+    .feed-form {
+        input.email {
+            width: 300px;
+            height: 60px;
+            font-size: 16px;
+        }
+    }
+    .footer {
+        &__resources {
+            &-title {
+                font-size: 13px;
+                line-height: 13px;
+            }
+            &-item {
+                font-size: 13px;
+                line-height: 11px;
+            }
+        }
+        &__social {
+            &-subheader {
+                display: none;
+            }
+            &-items {
+                margin-top: 25px;
+            }
+        }
+        &__divider-title {
+            font-size: 13px;
+        }
+        &__dropdown-btn {
+            background: none;
+            font-size: 13px;
+            &::after {
+                background: rgba(0,0,0,0) url(../../icons/dropdown-arrow.svg) no-repeat scroll center center;
+                content: "";
+                height: 16px;
+                position: absolute;
+                right: 9px;
+                top: 9px;
+                width: 16px;
+            }
+        }
+    }
+
+    .button.about__btn {
+        width: 170px;
+        height: 54px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 320px;
+    }
+    .promo {
+        &__title {
+            font-size: 31px;
+            line-height: 42px;
+        }
+        &__subtitle {
+            font-size: 21px;
+            line-height: 20px;
+        }
+        &__descr {
+            font-size: 15px;
+            line-height: 30px;
+            margin-top: 15px;
+        }
+    }
+    .button {
+        width: 170px;
+        height: 54px;
+    }
+    .services {
+        &__title {
+            font-size: 27px;
+            line-height: 27px;
+        }
+        &__subtitle {
+            font-size: 22px;
+            line-height: 30px;
+        }
+        &__wrapper {
+            margin-top: 35px;
+        }
+        &__item {
+            width: 220px;
+            height: 245px;
+            &-title {
+                font-size: 30px;
+                line-height: 40px;
+            }
+            &-subtitle {
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+    .about {
+        padding-top: 100px;
+        &__text {
+            &-title, &-title.third {
+                font-size: 29px;
+            }
+            &-author {
+                margin-top: 3px;
+                font-size: 21px;
+            }
+            &-location {
+                font-size: 14px;
+                line-height: 25px;
+            }
+        }
+    }
+    .mailing {
+        padding-top: 85px;
+        &__title {
+            font-size: 28px;
+            line-height: 25px;
+        }
+        &__descr {
+            font-size: 18px;
+            line-height: 26px;
+        }
+    }
+    .footer {
+        padding-top: 140px;
+        &__social {
+            &-logo {
+                width: 75%;
+            }
+            &-location {
+                text-align: left;
+                font-size: 10px;
+                line-height: 16px;
+            }
+            &-items {
+                margin-top: 45px;
+            }
+        }
+        &__resources {
+            &-title {
+                display: none;
+            }
+            &-item {
+                margin-top: 22px;
+            }
+            &-link {
+                font-size: 11px;
+                line-height: 17px;
+            }
+        }
+        &__divider {
+            margin-top: 0px;
+            &-title {
+                font-size: 11px;
+            }
+        }
+        &__dropdown {
+            &-content {
+                font-size: 11px;
+                width: 55px;
+            }
+            &-btn {
+                background: none;
+                font-size: 12px;
+                &::after {
+                    background: rgba(0,0,0,0) url(../../icons/dropdown-arrow.svg) no-repeat scroll center center;
+                    content: "";
+                    height: 16px;
+                    position: absolute;
+                    right: 15px;
+                    top: 9px;
+                    width: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 301px;
+    }
+    .menu {
+        &__block {
+            padding-left: 80px;
+        }
+    }
+    .menu.active {
+        left: -15%;
+    }
+    .promo {
+        &__title {
+            font-size: 29px;
+            line-height: 38px;
+        }
+        &__subtitle {
+            font-size: 20px;
+            line-height: 16px;
+        }
+    }
+    
+    .services {
+        &__title {
+            font-size: 25px;
+        }
+    }
+    .about {
+        &__text {
+            &-title.third {
+                font-size: 27px;
+            }
+        }
+    }
+    .mailing {
+        &__title {
+            font-size: 26px;
+        }
+    }
+    .feed-form {
+        input.email {
+            width: 280px;
+            height: 55px;
+            font-size: 19px;
+        }
+    }
+    .footer {
+        &__resources {
+            &-link {
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 300px) {
+    .container {
+        max-width: 281px;
+    }
+    .promo {
+        &__title {
+            font-size: 27px;
+            line-height: 35px;
+        }
+        &__subtitle {
+            font-size: 20px;
+            line-height: 16px;
+        }
+    }
+    .menu {
+        &__block {
+            padding-left: 100px;
+        }
+        &__social {
+            left: 55%;
+        }
+    }
+    .menu.active {
+        left: -25%;
+    }
+    .hamburger {
+        right: -130px;
+    }
+    .services {
+        &__title {
+            font-size: 23px;
+        }
+        &__subtitle {
+            font-size: 20px;
+            line-height: 27px;
+        }
+    }
+    .about {
+        &__text {
+            &-title.third {
+                font-size: 25px;
+            }
+        }
+    }
+    .mailing {
+        &__title {
+            font-size: 24px;
+        }
+    }
+    .feed-form {
+        input.email {
+            width: 260px;
+            height: 55px;
+            font-size: 19px;
+        }
+    }
+    .footer {
+        padding-top: 80px;
+        &__resources {
+            &-item {
+                margin-top: 17px;
+            }
+            &-link {
+                font-size: 8px;
+            }
+        }
+        &__social {
+            &-items {
+                margin-top: 27px;
+            }
+        }
+        &__divider {
+            &-title {
+                font-size: 10px;
+            }
+        }
+        &__dropdown {
+            &-btn {
+                font-size: 11px;
+            }
+        }
+    }
+}
+
+@media (max-width: 280px) {
+    .container {
+        max-width: 261px;
+    }
+    .hamburger {
+        right: -100px;
+    }
+    .promo {
+        &__title {
+            font-size: 25px;
+            line-height: 33px;
+        }
+        &__subtitle {
+            font-size: 18px;
+            line-height: 14px;
+        }
+    }
+    .button {
+        margin-top: 15px;
+        width: 150px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .services {
+        &__title {
+            font-size: 21px;
+        }
+        &__subtitle {
+            font-size: 19px;
+            line-height: 24px;
+        }
+    }
+    .about {
+        &__text {
+            &-title.third {
+                font-size: 25px;
+            }
+        }
+    }
+    .mailing {
+        &__title {
+            font-size: 22px;
+        }
+    }
+    .feed-form {
+        input.email {
+            width: 240px;
+            height: 55px;
+            font-size: 16px;
+        }
+    }
+    .footer {
+        &__social {
+            &-item {
+                margin-right: 2px;
+            }
+            &-items {
+                margin-top: 11px;
+            }
+        }
+        &__divider {
+            &-title {
+                font-size: 8px;
+            }
+        }
+        &__dropdown {
+            &-btn {
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 260px) {
+    .container {
+        max-width: 241px;
+    }
+    .hamburger {
+        right: -80px;
+    }
+    .promo {
+        &__title {
+            font-size: 23px;
+            line-height: 29px;
+        }
+        &__subtitle {
+            font-size: 16px;
+            line-height: 9px;
+        }
+        &__descr {
+            font-size: 13px;
+            line-height: 28px;
+            margin-top: 9px;
+        }
+    }
+    .services {
+        &__title {
+            font-size: 19px;
+        }
+        &__subtitle {
+            font-size: 17px;
+            line-height: 21px;
+        }
+        &__item {
+            width: 200px;
+            height: 225px;
+            &-title {
+                font-size: 26px;
+                line-height: 35px;
+            }
+            &-subtitle {
+                font-size: 15px;
+                line-height: 22px;
+            }
+        }
+    }
+    .about {
+        &__text {
+            &-title {
+                font-size: 23px;
+                line-height: 32px;
+            }
+            &-subtitle {
+                font-size: 21px;
+                line-height: 31px;
+            }
+            &-title.third {
+                font-size: 21px;
+                line-height: 31px;
+            }
+            &-descr {
+                line-height: 28px;
+                font-size: 15px;
+            }
+        }
+    }
+    .mailing {
+        &__title {
+            font-size: 20px;
+        }
+        &__descr {
+            font-size: 16px;
+            line-height: 26px;
+        }
+    }
+    .feed-form {
+        input.email {
+            width: 220px;
+            height: 55px;
+            font-size: 12px;
+        }
+    }
+    .footer {
+        &__social {
+            &-item {
+                margin-right: 2px;
+            }
+            &-items {
+                margin-top: 11px;
+            }
+        }
+        &__divider {
+            &-title {
+                font-size: 7px;
+            }
+        }
+        &__dropdown {
+            &-btn {
+                font-size: 9px;
+            }
+        }
+    }
+}
+

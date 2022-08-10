@@ -1,0 +1,102 @@
+.footer {
+    background: url("../../img/footer_bg.png") no-repeat center / cover; 
+    // background-size: 100%;
+    width: 100%;
+    padding-top: 160px;
+    a {
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    &__bigwrapp {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__wrapper {
+        display: contents;
+    }
+    &__social {
+        &-text, &-subheader {
+            margin-top: 38px;
+        }
+        &-text {
+            font-family: 'Mulish';
+            color: $descr-color;
+            font-size: 20px;
+            line-height: 32px;
+            font-weight: 400;
+        }
+        &-subheader {
+            font-family: 'Mulish';
+            color: $descr-color;
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 700;
+        }
+        &-items {
+            align-items: center;
+            margin-top: 16px;
+        }
+        &-item {
+            margin-right: 11px;
+            width: 41px;
+            height: 41px;
+            &:last-child {
+                margin-right: 0px;
+            }
+        }
+    }
+    &__resources {
+        &-items {
+            margin-top: 37px;
+            &:first-child {
+                margin-top: 0px;
+            }
+        }
+        &-title {
+            font-family: 'DM Sans';
+            color: $main-color;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 32px;
+        }
+        &-item {
+            margin-top: 25px;
+            list-style-type: none;
+            font-family: 'Mulish';
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 32px;
+        }
+        &-link {
+            color: $descr-color;
+            transition: all linear .2s;
+            &:hover {
+                text-decoration: none;
+                color: $main-color;
+            }
+        }
+    }
+    &__divider {
+        margin-top: 50px;
+        background: #F78CB6;
+        width: 100%;
+        &-wrapper {
+            height: 55px;
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+        }
+        &-title {
+            font-family: 'DM Sans';
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 30px;
+            color: #fff;
+        }
+        &-lang {
+            width: 28px;
+            height: 28px;
+        }
+    }
+}

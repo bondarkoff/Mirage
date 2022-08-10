@@ -1,0 +1,45 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Mulish:wght@400;700&display=swap');
+
+@import 'base/mixins';
+@import 'base/variables';
+
+@import 'blocks/header';
+@import 'blocks/menu';
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/titles';
+@import 'blocks/services';
+@import 'blocks/about';
+@import 'blocks/mailing';
+@import 'blocks/forms';
+@import 'blocks/footer';
+@import 'blocks/dropdown';
+@import 'blocks/media';
+
+* {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+// Custom scrollbar //
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+}
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

@@ -1,0 +1,30 @@
+.title {
+    font-family: 'DM Sans', sans-serif;
+    color: $main-color;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 62px;
+    &-h1 {
+        font-family: 'DM Sans', sans-serif;
+        color: $main-color;
+        font-weight: 700;
+        font-size: 63px;
+        line-height: 72px;
+    }
+}
+
+.descr {
+    color: $descr-color;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.subtitle {
+    font-family: 'DM Sans', sans-serif;
+    color: $second-color;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 500;
+}
