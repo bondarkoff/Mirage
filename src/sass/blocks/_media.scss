@@ -84,11 +84,23 @@
     }
     .about {
         position: relative;
-        &__photo {
+        &__photo{
             z-index: 1;
             opacity: 25%;
             position: absolute;
             right: 40px;
+            width: 500px;
+            max-height: 400px;
+            object-fit: cover;
+        }
+        &__photo.second {
+            z-index: 1;
+            opacity: 25%;
+            position: absolute;
+            right: 40px;
+            width: 500px;
+            max-height: 500px;
+            object-fit: cover;
         }
         &__photo.third {
             position: inherit;
@@ -422,7 +434,9 @@
     .about {
         padding-top: 120px; 
         &__photo, &__photo.second {
-            width: 70%;
+            width: 400px;
+            max-height: 400px;
+            object-fit: cover;
         }
         &__text {
             &-title {
@@ -495,6 +509,8 @@
             }
             &-photo {
                 width: 20%;
+                height: 20%;
+                object-fit: cover;
             }
         }
     }
